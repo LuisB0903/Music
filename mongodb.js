@@ -5,7 +5,7 @@ require('dotenv').config();
 
 let client; 
 
-if (config.mongodbUri) {
+if (process.env.mongodbUri) {
     const uri = process.env.mongodbUri;
     client = new MongoClient(uri);
 } else {
