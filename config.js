@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
      {
       name: "El lider",
-      password: "thepo1234",
-      host: "172.31.128.43",
-      port:  8262,
+      password: "youshallnotpass",
+      host: "gh46.glacierhosting.org",
+      port:  25583,
       secure: false
     }
   ]
